@@ -42,6 +42,47 @@ Rules for code formatting, naming conventions, error handling, logging, security
 3. **Instruct Claude**: Tell Claude to follow the rules in the `.clinerules` directory
 4. **Customize**: Modify rule sets as needed to meet your specific project requirements
 
+## Automation Options
+
+ClinerRules supports three implementation approaches to fit different workflow preferences:
+
+### Manual Approach
+
+The manual approach gives you complete control over which rules Claude follows:
+
+1. Select the specific rule files you want (documentation, git, coding)
+2. Copy them to your project's `.clinerules` directory
+3. Instruct Claude to follow those specific rules
+
+This approach is ideal when you want to tailor the ruleset precisely to your project needs.
+
+### Automated Approach
+
+The automated approach provides a comprehensive documentation and governance system with minimal setup:
+
+1. Copy the `default.md` file from `clinerules-templates` to your project's `.clinerules` directory
+2. Restart VS Code (to ensure Claude recognizes the new file)
+3. Ask Claude to check for its "PRIME DIRECTIVE"
+
+When Claude detects the default rule, it will:
+
+1. Automatically initialize a `.my_stuff` documentation structure
+2. Ask for your preferences on documentation, git, code quality, and implementation policies
+3. Generate policy files based on your selections
+4. Set up templates and documentation index
+5. Maintain comprehensive documentation throughout the project
+
+This approach is ideal for projects requiring thorough documentation and governance.
+
+### Hybrid Approach
+
+Combine both approaches by:
+
+1. Using the automated `default.md` for documentation governance
+2. Adding specific manual rules for other aspects like git or coding standards
+
+This gives you both comprehensive documentation automation and precise control over specific rules.
+
 ## Rule Selection Guide
 
 | Project Type | Documentation | Git | Coding |
