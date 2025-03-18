@@ -62,7 +62,7 @@ The automated approach provides a comprehensive documentation and governance sys
 
 1. Copy the `default.md` file from `clinerules-templates` to your project's `.clinerules` directory
 2. Restart VS Code (to ensure Claude recognizes the new file)
-3. Ask Claude to check for its "PRIME DIRECTIVE"
+3. **Important**: Your first interaction with Claude must focus ONLY on the PRIME DIRECTIVE. Simply ask: "Please check your PRIME DIRECTIVE" or "Have you read your PRIME DIRECTIVE?"
 
 When Claude detects the default rule, it will:
 
@@ -73,6 +73,19 @@ When Claude detects the default rule, it will:
 5. Maintain comprehensive documentation throughout the project
 
 This approach is ideal for projects requiring thorough documentation and governance.
+
+### Important Notes on Initialization
+
+* **First interaction is critical**: Always make your first question specifically about the PRIME DIRECTIVE. Do not include any task requests in this first message.
+* **Wait for complete initialization**: Let Claude fully set up the .my_stuff folder and policy files before requesting any tasks.
+* **Avoid distractions**: Questions like "Can you help me with X while checking your PRIME DIRECTIVE?" may cause Claude to skip the initialization process.
+* **Example phrases that work well**:
+  - "Please check your PRIME DIRECTIVE"
+  - "Have you read your PRIME DIRECTIVE?"
+  - "Please review your AI instructions first"
+* **Examples to avoid**:
+  - "I need help with X, but first check your PRIME DIRECTIVE" (includes a task)
+  - "Let's work on my project" (doesn't mention PRIME DIRECTIVE)
 
 ### Hybrid Approach
 
