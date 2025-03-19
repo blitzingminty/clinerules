@@ -1,8 +1,22 @@
+<!-- PRIME DIRECTIVE REMINDER -->
+<!-- Always update the memory bank after tasks and consult critical learnings -->
+<!-- See .clinerules/default.md for full PRIME DIRECTIVE -->
+
 # Project Knowledge & Memory Bank
 
 ## Overview
 
 This directory (`.my_stuff`) serves as the project's institutional knowledge repository and memory bank. It contains documentation, templates, policies, and accumulated learnings that help Claude maintain consistency, avoid repeating past mistakes, and continuously improve its assistance.
+
+## PRIME DIRECTIVE Compliance
+
+All files in this memory bank include a PRIME DIRECTIVE reminder header to ensure:
+- Consistent adherence to the project's governance standards
+- Regular updates to the memory bank after each task
+- Consultation of critical learnings before implementing solutions
+- Compliance with established project policies
+
+The PRIME DIRECTIVE reminder is maintained as the first element in every file created or updated by Claude.
 
 ## Purpose
 

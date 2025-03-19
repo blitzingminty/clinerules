@@ -267,11 +267,28 @@ Once all policy files have been created in the `.my_stuff/staging` directory:
 3. Verify all files have been properly copied
 4. Inform the user that the policies are now active
 
-## Basic File Creation
+## File Creation Standards
+
+### PRIME DIRECTIVE Header Requirement
+
+[CRITICAL] All files created or updated by the AI MUST include the following PRIME DIRECTIVE reminder header at the very top of the file:
+
+```markdown
+<!-- PRIME DIRECTIVE REMINDER -->
+<!-- Always update the memory bank after tasks and consult critical learnings -->
+<!-- See .clinerules/default.md for full PRIME DIRECTIVE -->
+```
+
+This header serves as a constant reminder of the obligation to:
+- Maintain the memory bank
+- Update documentation after each task
+- Consult critical learnings before implementation
+- Follow established project policies
 
 ### Default README.md Content
 
 The README.md should contain:
+- The required PRIME DIRECTIVE header
 - Documentation purpose and philosophy
 - Folder structure explanation
 - Guidelines for maintaining documentation

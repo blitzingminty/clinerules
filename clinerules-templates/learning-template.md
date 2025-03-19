@@ -1,3 +1,7 @@
+<!-- PRIME DIRECTIVE REMINDER -->
+<!-- Always update the memory bank after tasks and consult critical learnings -->
+<!-- See .clinerules/default.md for full PRIME DIRECTIVE -->
+
 # Learning Entry: [DATE-ID]
 
 ## Category: [LEARNING CATEGORY]
