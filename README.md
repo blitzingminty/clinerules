@@ -118,3 +118,7 @@ These rule sets are living documents. As best practices evolve and as you discov
 ---
 
 _ClineRules is an enhancement for Claude developed to work with the [CLINE project](https://github.com/cline/cline)._
+
+## License
+
+ClineRules is licensed under the [Apache License 2.0](LICENSE).
