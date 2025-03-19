@@ -25,7 +25,7 @@ We welcome contributions in several areas:
    ```
 3. Add the original repository as an upstream remote:
    ```
-   git remote add upstream https://github.com/ORIGINAL-OWNER/clinerules.git
+   git remote add upstream https://github.com/blitzingminty/clinerules.git
    ```
 4. Keep your fork up to date:
    ```
