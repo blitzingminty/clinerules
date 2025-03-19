@@ -2,7 +2,7 @@
 
 ## Overview
 
-ClineRules is a standardized format for instructing Claude on various aspects of software development workflows. These rules empower users to clearly define expectations for documentation, Git practices, and coding standards, ensuring consistency, quality, and productivity across projects.
+ClineRules is a standardized format for instructing Claude on various aspects of software development workflows. These rules empower users to clearly define expectations for documentation, Git practices, and coding standards, ensuring consistency, quality, and productivity across projects. ClineRules is designed to work alongside the [CLINE project](https://github.com/cline/cline) to enhance AI-assisted development workflows.
 
 ## Purpose and Benefits
 
@@ -102,6 +102,11 @@ These rule sets are designed to be customizable to your specific needs. You can:
 2. Mix and match rules from different strictness levels
 3. Create specialized rule sets for specific project types
 
+## Related Projects
+
+### [CLINE](https://github.com/cline/cline)
+CLINE is a command-line tool that enhances development workflows with AI assistance. ClineRules is specifically designed to integrate with CLINE to provide structured guidance and standards for AI interactions.
+
 ## Contributing
 
 These rule sets are living documents. As best practices evolve and as you discover what works best for your projects, consider:
@@ -109,3 +114,7 @@ These rule sets are living documents. As best practices evolve and as you discov
 1. Refining rules based on project experiences
 2. Sharing successful rule configurations with the community
 3. Creating specialized rule sets for specific technologies or domains
+
+---
+
+_ClineRules is an enhancement for Claude developed to work with the [CLINE project](https://github.com/cline/cline)._
