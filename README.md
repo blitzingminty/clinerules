@@ -1,8 +1,8 @@
-# ClinerRules: Rules for Claude
+# ClineRules: Rules for Claude
 
 ## Overview
 
-ClinerRules is a standardized format for instructing Claude on various aspects of software development workflows. These rules empower users to clearly define expectations for documentation, Git practices, and coding standards, ensuring consistency, quality, and productivity across projects.
+ClineRules is a standardized format for instructing Claude on various aspects of software development workflows. These rules empower users to clearly define expectations for documentation, Git practices, and coding standards, ensuring consistency, quality, and productivity across projects.
 
 ## Purpose and Benefits
 
@@ -44,7 +44,7 @@ Rules for code formatting, naming conventions, error handling, logging, security
 
 ## Automation Options
 
-ClinerRules supports three implementation approaches to fit different workflow preferences:
+ClineRules supports three implementation approaches to fit different workflow preferences:
 
 ### Manual Approach
 

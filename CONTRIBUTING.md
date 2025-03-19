@@ -1,10 +1,10 @@
-# Contributing to ClinerRules
+# Contributing to ClineRules
 
-Thank you for your interest in contributing to ClinerRules! This document provides guidelines and instructions for contributing to this project.
+Thank you for your interest in contributing to ClineRules! This document provides guidelines and instructions for contributing to this project.
 
 ## Introduction
 
-ClinerRules is a standardized format for instructing Claude on various aspects of software development workflows. The project aims to establish consistent standards, improve efficiency, ensure quality, and provide clarity in AI-assisted development.
+ClineRules is a standardized format for instructing Claude on various aspects of software development workflows. The project aims to establish consistent standards, improve efficiency, ensure quality, and provide clarity in AI-assisted development.
 
 We welcome contributions in several areas:
 - New rule sets for different development contexts
@@ -35,7 +35,7 @@ We welcome contributions in several areas:
 
 ### Development Environment
 
-No special development environment is required for contributing to ClinerRules. A text editor with Markdown support is recommended for editing the rule files.
+No special development environment is required for contributing to ClineRules. A text editor with Markdown support is recommended for editing the rule files.
 
 ## Contribution Process
 
@@ -167,4 +167,4 @@ Contributors will be acknowledged in the project's README.md file. Significant c
 
 If you have any questions about contributing that aren't answered here, please open an issue labeled "question" in the repository.
 
-Thank you for helping improve ClinerRules!
+Thank you for helping improve ClineRules!
