@@ -1,0 +1,12 @@
+default: true
+MD009: false  # trailing spaces
+MD013: false  # line length
+MD022: false  # blanks around headings
+MD024: false  # duplicate heading content
+MD031: false  # blanks around fenced code blocks
+MD032: false  # blanks around lists
+MD033: false  # inline HTML (templates use HTML comments)
+MD034: false  # bare URLs (e.g. contact email in CODE_OF_CONDUCT)
+MD036: false  # emphasis used instead of a heading
+MD040: false  # fenced code block language
+MD041: false  # first line top-level heading (templates start with comments)
