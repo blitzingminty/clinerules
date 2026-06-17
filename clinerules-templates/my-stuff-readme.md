@@ -6,7 +6,7 @@
 
 ## Overview
 
-This directory (`.my_stuff`) serves as the project's institutional knowledge repository and memory bank. It contains documentation, templates, policies, and accumulated learnings that help Claude maintain consistency, avoid repeating past mistakes, and continuously improve its assistance.
+This directory (`.my_stuff`) serves as the project's institutional knowledge repository and memory bank. It contains documentation, templates, policies, and accumulated learnings that help Cline maintain consistency, avoid repeating past mistakes, and continuously improve its assistance.
 
 ## PRIME DIRECTIVE Compliance
 
@@ -16,7 +16,7 @@ All files in this memory bank include a PRIME DIRECTIVE reminder header to ensur
 - Consultation of critical learnings before implementing solutions
 - Compliance with established project policies
 
-The PRIME DIRECTIVE reminder is maintained as the first element in every file created or updated by Claude.
+The PRIME DIRECTIVE reminder is maintained as the first element in every file created or updated by Cline.
 
 ## Purpose
 
@@ -56,7 +56,7 @@ The memory bank system is designed to:
 
 ### Memory Update Process
 
-After completing each task, Claude automatically:
+After completing each task, Cline automatically:
 
 1. **Extracts Learnings**: Documents new techniques, approaches, and knowledge
 2. **Records Mistakes**: Captures any errors and their solutions
@@ -66,7 +66,7 @@ After completing each task, Claude automatically:
 
 ### Memory Usage During Tasks
 
-Before implementing solutions, Claude consults:
+Before implementing solutions, Cline consults:
 
 1. The mistakes registry to avoid repeating known issues
 2. The anti-patterns documentation to avoid problematic approaches
@@ -79,7 +79,7 @@ Before implementing solutions, Claude consults:
 
 - **Review Updates**: Periodically review memory bank updates for accuracy
 - **Suggest Additions**: Recommend important learnings or patterns to document
-- **Provide Feedback**: Let Claude know if proposed solutions don't account for past learnings
+- **Provide Feedback**: Let Cline know if proposed solutions don't account for past learnings
 
 ### Managing the Memory Bank
 
@@ -87,16 +87,16 @@ The memory bank is maintained automatically, but you can:
 
 - Request specific updates to any memory files
 - Ask for summaries of learnings in specific areas
-- Direct Claude to pay special attention to particular past issues or patterns
+- Direct Cline to pay special attention to particular past issues or patterns
 
 ## Benefits
 
 This system ensures:
 
-- **Continuous Improvement**: Claude learns from each interaction
+- **Continuous Improvement**: Cline learns from each interaction
 - **Institutional Knowledge**: Critical information isn't lost between sessions
 - **Error Prevention**: Common mistakes aren't repeated
 - **Consistency**: Solutions follow established patterns and decisions
 - **Knowledge Transfer**: New team members can quickly understand project context
 
-The memory bank allows Claude to provide increasingly effective assistance as your project evolves.
+The memory bank allows Cline to provide increasingly effective assistance as your project evolves.

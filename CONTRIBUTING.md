@@ -4,7 +4,7 @@ Thank you for your interest in contributing to ClineRules! This document provide
 
 ## Introduction
 
-ClineRules is a standardized format for instructing Claude on various aspects of software development workflows. The project aims to establish consistent standards, improve efficiency, ensure quality, and provide clarity in AI-assisted development.
+ClineRules is a standardized format for instructing Cline on various aspects of software development workflows. The project aims to establish consistent standards, improve efficiency, ensure quality, and provide clarity in AI-assisted development.
 
 We welcome contributions in several areas:
 - New rule sets for different development contexts
@@ -89,8 +89,8 @@ Pull requests will be reviewed based on:
 
 Before submitting new rules:
 
-1. Test them with Claude in a real project context
-2. Verify that Claude can correctly interpret and apply the rules
+1. Test them with Cline in a real project context
+2. Verify that Cline can correctly interpret and apply the rules
 3. Document any edge cases or limitations
 
 ### Documentation Requirements

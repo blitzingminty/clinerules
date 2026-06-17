@@ -1,16 +1,16 @@
-# ClineRules: Rules for Claude
+# ClineRules: Rules for Cline
 
 ## Overview
 
-ClineRules is a standardized format for instructing Claude on various aspects of software development workflows. These rules empower users to clearly define expectations for documentation, Git practices, and coding standards, ensuring consistency, quality, and productivity across projects. ClineRules is designed to work alongside the [CLINE project](https://github.com/cline/cline) to enhance AI-assisted development workflows.
+ClineRules is a standardized format for instructing Cline on various aspects of software development workflows. These rules empower users to clearly define expectations for documentation, Git practices, and coding standards, ensuring consistency, quality, and productivity across projects. ClineRules is designed to work alongside the [CLINE project](https://github.com/cline/cline) to enhance AI-assisted development workflows.
 
 ## Purpose and Benefits
 
 - **Consistency**: Establish consistent standards across projects and teams
-- **Efficiency**: Reduce time spent explaining standards to Claude
+- **Efficiency**: Reduce time spent explaining standards to Cline
 - **Quality**: Ensure higher quality output by applying proven best practices
 - **Flexibility**: Select rule sets based on project needs and team expertise
-- **Clarity**: Provide clear expectations for Claude to follow
+- **Clarity**: Provide clear expectations for Cline to follow
 
 ## Categories
 
@@ -39,7 +39,7 @@ Rules for code formatting, naming conventions, error handling, logging, security
 
 1. **Select Rule Sets**: Choose the appropriate rule sets based on your project requirements and team expertise level
 2. **Apply Rules**: Add relevant `.clinerules` files to your project
-3. **Instruct Claude**: Tell Claude to follow the rules in the `.clinerules` directory
+3. **Instruct Cline**: Tell Cline to follow the rules in the `.clinerules` directory
 4. **Customize**: Modify rule sets as needed to meet your specific project requirements
 
 ## Automation Options
@@ -48,11 +48,11 @@ ClineRules supports three implementation approaches to fit different workflow pr
 
 ### Manual Approach
 
-The manual approach gives you complete control over which rules Claude follows:
+The manual approach gives you complete control over which rules Cline follows:
 
 1. Select the specific rule files you want (documentation, git, coding)
 2. Copy them to your project's `.clinerules` directory
-3. Instruct Claude to follow those specific rules
+3. Instruct Cline to follow those specific rules
 
 This approach is ideal when you want to tailor the ruleset precisely to your project needs.
 
@@ -61,10 +61,10 @@ This approach is ideal when you want to tailor the ruleset precisely to your pro
 The automated approach provides a comprehensive documentation and governance system with minimal setup:
 
 1. Copy the `default.md` file from `clinerules-templates` to your project's `.clinerules` directory
-2. Restart VS Code (to ensure Claude recognizes the new file)
-3. Ask Claude to check for its "PRIME DIRECTIVE"
+2. Restart VS Code (to ensure Cline recognizes the new file)
+3. Ask Cline to check for its "PRIME DIRECTIVE"
 
-When Claude detects the default rule, it will:
+When Cline detects the default rule, it will:
 
 1. Automatically initialize a `.my_stuff` documentation structure
 2. Ask for your preferences on documentation, git, code quality, and implementation policies
@@ -105,7 +105,7 @@ These rule sets are designed to be customizable to your specific needs. You can:
 ## Related Projects
 
 ### [CLINE](https://github.com/cline/cline)
-CLINE is a command-line tool that enhances development workflows with AI assistance. ClineRules is specifically designed to integrate with CLINE to provide structured guidance and standards for AI interactions.
+CLINE is a command-line tool that enhances development workflows with AI assistance. ClineRules is specifically designed to integrate with CLINE to provide structured guidance and standards for AI-assisted development.
 
 ## Contributing
 
@@ -117,7 +117,7 @@ These rule sets are living documents. As best practices evolve and as you discov
 
 ---
 
-_ClineRules is an enhancement for Claude developed to work with the [CLINE project](https://github.com/cline/cline)._
+_ClineRules is an enhancement for Cline developed to work with the [CLINE project](https://github.com/cline/cline)._
 
 ## License
 
