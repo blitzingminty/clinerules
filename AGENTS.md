@@ -64,7 +64,7 @@ The Code Review Agent reviews pull requests and proposes improvements, catching 
 
 ### Refactoring Agent
 
-The Refactoring Agent improves the internal structure of existing code without changing its external behaviour.
+The Refactoring Agent improves the internal structure of existing code without changing its external behavior.
 
 **Responsibilities**
 
