@@ -109,4 +109,4 @@ By combining the role context from `AGENTS.md` with the enforceable standards fr
 
 ---
 
-_For more on the `.clinerules/` rule sets and how to configure them, see the [README](README.md) and the [CLINE project](https://github.com/cline/cline)._
+*For more on the `.clinerules/` rule sets and how to configure them, see the [README](README.md) and the [CLINE project](https://github.com/cline/cline).*
