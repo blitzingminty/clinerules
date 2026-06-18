@@ -44,7 +44,7 @@ If you cannot find the `.my_stuff` folder or it does not exist, you MUST create 
    - `pattern-template.md` - For documenting code patterns
 8. **Ask the user about their preferences for each policy area**
 9. Create the appropriate policy files in the `.my_stuff/staging` folder based on user selections
-10. Copy all policy files from `.my_stuff/staging` to the `.clinerules` folder
+10. Copy all policy files from `.my_stuff/staging` to the `.clinerules/` directory
 11. Inform the user that you have initialized the documentation structure
 12. Proceed with the PRIME DIRECTIVE process
 
@@ -262,7 +262,7 @@ When you identify reusable patterns or critical information, create or update en
 
 Once all policy files have been created in the `.my_stuff/staging` directory:
 
-1. Ensure the `.clinerules` directory exists
+1. Ensure the `.clinerules/` directory exists
 2. Copy all files from `.my_stuff/staging` to `.clinerules/`
 3. Verify all files have been properly copied
 4. Inform the user that the policies are now active

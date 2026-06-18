@@ -15,6 +15,7 @@ ClineRules is a standardized format for instructing Cline on various aspects of 
 ## Categories
 
 ### Documentation Rules
+
 Rules for comment formatting, documentation coverage, writing style, markup usage, and versioning practices.
 
 - **Basic**: Minimal documentation for quick prototyping and personal projects
@@ -22,6 +23,7 @@ Rules for comment formatting, documentation coverage, writing style, markup usag
 - **Strict**: Comprehensive documentation for critical or public-facing projects
 
 ### Git Rules
+
 Rules for commit messages, branching strategies, merging practices, versioning, and issue linking.
 
 - **Basic**: Simple Git workflow for individual developers or small teams
@@ -29,18 +31,24 @@ Rules for commit messages, branching strategies, merging practices, versioning, 
 - **Strict**: Rigorous commit standards and comprehensive branching strategy for large teams
 
 ### Coding Rules
+
 Rules for code formatting, naming conventions, error handling, logging, security, performance, and complexity limits.
 
 - **Basic**: Essential code quality rules for rapid development
 - **Standard**: Comprehensive rules for professional software development
 - **Strict**: Rigorous standards for mission-critical systems
 
+See [AGENTS.md](AGENTS.md) for guidance on agent roles and personas, and how they complement the `.clinerules/` directory.
+
 ## How to Use
 
 1. **Select Rule Sets**: Choose the appropriate rule sets based on your project requirements and team expertise level
-2. **Apply Rules**: Add relevant `.clinerules` files to your project
-3. **Instruct Cline**: Tell Cline to follow the rules in the `.clinerules` directory
-4. **Customize**: Modify rule sets as needed to meet your specific project requirements
+2. **Create the directory**: Create a `.clinerules/` directory in your project root
+3. **Apply Rules**: Copy the relevant rule files (e.g. `.clinerules/documentation.md`, `.clinerules/git.md`, `.clinerules/coding.md`) into that directory
+4. **Instruct Cline**: Tell Cline to follow the rules in the `.clinerules/` directory
+5. **Customize**: Modify rule sets as needed to meet your specific project requirements
+
+Because `.clinerules/` is a directory of individual files, you can **enable or disable specific rules** at any time simply by adding or removing the corresponding file — no other configuration is required.
 
 ## Automation Options
 
@@ -51,7 +59,7 @@ ClineRules supports three implementation approaches to fit different workflow pr
 The manual approach gives you complete control over which rules Cline follows:
 
 1. Select the specific rule files you want (documentation, git, coding)
-2. Copy them to your project's `.clinerules` directory
+2. Copy them into your project's `.clinerules/` directory
 3. Instruct Cline to follow those specific rules
 
 This approach is ideal when you want to tailor the ruleset precisely to your project needs.
@@ -60,9 +68,8 @@ This approach is ideal when you want to tailor the ruleset precisely to your pro
 
 The automated approach provides a comprehensive documentation and governance system with minimal setup:
 
-1. Copy the `default.md` file from `clinerules-templates` to your project's `.clinerules` directory
-2. Restart VS Code (to ensure Cline recognizes the new file)
-3. Ask Cline to check for its "PRIME DIRECTIVE"
+1. Copy the `default.md` file from `clinerules-templates` into your project's `.clinerules/` directory
+2. Ask Cline to check for its "PRIME DIRECTIVE"
 
 When Cline detects the default rule, it will:
 
@@ -83,6 +90,15 @@ Combine both approaches by:
 
 This gives you both comprehensive documentation automation and precise control over specific rules.
 
+## Examples
+
+The [`examples/`](examples/README.md) directory provides copy-pasteable `.clinerules/` setups for common project types:
+
+- [Python (Standard tier)](examples/python/README.md) — Standard documentation, Git, and coding rules for professional Python projects
+- [TypeScript (Standard tier)](examples/typescript/README.md) — Standard documentation, Git, and coding rules for professional TypeScript projects
+
+Open the example that matches your project type, copy its `.clinerules/` directory into your project root, and customize as needed.
+
 ## Rule Selection Guide
 
 | Project Type | Documentation | Git | Coding |
@@ -101,6 +117,7 @@ These rule sets are designed to be customizable to your specific needs. You can:
 1. Modify existing rule files to adjust requirements
 2. Mix and match rules from different strictness levels
 3. Create specialized rule sets for specific project types
+4. **Toggle individual rules** by adding or removing the corresponding file from your `.clinerules/` directory
 
 ## Related Projects
 
@@ -117,7 +134,7 @@ These rule sets are living documents. As best practices evolve and as you discov
 
 ---
 
-_ClineRules is an enhancement for Cline developed to work with the [CLINE project](https://github.com/cline/cline)._
+*ClineRules is an enhancement for Cline developed to work with the [CLINE project](https://github.com/cline/cline).*
 
 ## License
 
